@@ -28,3 +28,15 @@ CREATE TABLE species (
 	name VARCHAR(25),
 	PRIMARY KEY (id)
 );
+
+-- Remove 'species' column from animals table.
+ALTER TABLE animals
+DROP COLUMN species;
+
+-- Add column species_id which is a foreign key referencing species table
+ALTER TABLE animals
+ADD species_id INT REFERENCES species(id);
+
+-- Add column owner_id which is a foreign key referencing the owners table
+ALTER TABLE animals
+ADD owner_id INT REFERENCES owners(id);
