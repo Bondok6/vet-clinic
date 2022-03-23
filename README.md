@@ -1,9 +1,13 @@
 # Vet Clinic Database
 
-> Build a relational database for a vet clinic using `PostgrSQL`.
+> Build a relational database for a vet clinic using `PostgrSQL`. It is a complete database with data about: animals, animals' owners, clinic employees, and visits.
 
 ## Getting Started
 
+```bash
+$ git clone git@github.com:Sahar-AbdelSamad/vet-clinic.git
+$ cd vet-clinic
+```
 This repository includes files with plain SQL that can be used to recreate a database:
 
 - Use [schema.sql](./schema.sql) to create all tables.
