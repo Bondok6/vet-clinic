@@ -10,6 +10,6 @@ CREATE TABLE animals (
 	PRIMARY KEY(id)
 );
 
--- Add a column species of type string to your animals table.
+-- Add a column species of type string to animals table.
 ALTER TABLE animals
 ADD species VARCHAR(25);
