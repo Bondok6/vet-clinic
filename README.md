@@ -5,7 +5,7 @@
 ## Getting Started
 
 ```bash
-$ git clone git@github.com:Sahar-AbdelSamad/vet-clinic.git
+$ git clone git@github.com:Bondok6/vet-clinic.git
 $ cd vet-clinic
 ```
 This repository includes files with plain SQL that can be used to recreate a database:
