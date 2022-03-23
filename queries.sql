@@ -135,6 +135,6 @@ WHERE o.full_name = 'Dean Winchester' AND a.escape_attempts = 0;
 SELECT o.full_name
 FROM owners o
 JOIN animals a ON a.owner_id = o.id
-GROUP BY o.id
+GROUP BY o.full_name
 ORDER BY COUNT(a.owner_id) DESC
 LIMIT 1;
