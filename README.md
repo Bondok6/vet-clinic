@@ -27,6 +27,12 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+### List of Contribuitors
+
+👤 **Zeeshan Haider**
+
+- GitHub: [@zhadier](https://github.com/zhadier)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!

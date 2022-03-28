@@ -68,3 +68,11 @@ CREATE TABLE visits (
 	FOREIGN KEY (animals_id) REFERENCES animals (id) ON UPDATE CASCADE,
 	PRIMARY KEY (id)
 );
+
+-- Find a way to decrease the execution time of the first query. Look for hints in the previous lessons.
+CREATE INDEX visits_animals_id_idx ON visits(animals_id);
+
+-- Find a way to improve execution time of the other two queries.
+CREATE INDEX visits_vets_id_idx ON visits(vets_id desc);
+
+CREATE INDEX owners_email_idx ON owners(email);
